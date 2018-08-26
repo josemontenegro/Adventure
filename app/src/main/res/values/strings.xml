@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Adventure</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="descripcion_de_la_aventura">Descripcion de la Aventura</string>
+    <string name="fecha_de_creacion">Fecha de Creacion</string>
+    <string name="monta_ismo_y_senderismo">Montañismo y senderismo</string>
+    <string name="surf">Surf</string>
+    <string name="parapente">Parapente</string>
+    <string name="rafting">Rafting</string>
+    <string name="rapel">Rapel</string>
+    <string name="categoria_de_la_aventura">Categoria de la Aventura</string>
+    <string name="otro">Otro</string>
+</resources>

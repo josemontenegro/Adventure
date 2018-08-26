@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@mipmap/adventure_notes_trans"
+    android:padding="16dp">
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:text="ADVENTURE NOTES"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+
+            <TextView
+
+                android:text="Nombre de su Aventura"
+                android:textSize="24sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"/>
+
+
+            <EditText
+                android:inputType="text"
+                android:id="@+id/saveName"
+                android:hint="Ingrese:"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/fui_transparent"/>
+
+            <TextView
+
+                android:text="Descripcion de su Aventura"
+                android:textSize="24sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:inputType="text"
+                android:id="@+id/saveDescription"
+                android:hint="Ingrese:"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/fui_transparent"/>
+
+            <TextView
+
+                android:text="Seleccione Una categoria"
+                android:textSize="24sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:textColor="@android:color/black"/>
+
+
+
+            <RadioGroup
+                android:id="@+id/saveCategoryRg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:text="@string/monta_ismo_y_senderismo"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"/>
+
+
+                <RadioButton
+                    android:text="@string/surf"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"/>
+
+
+                <RadioButton
+                    android:text="@string/parapente"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"/>
+
+
+                <RadioButton
+                    android:text="@string/rafting"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"/>
+
+                <RadioButton
+                    android:text="@string/rapel"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"/>
+
+                <RadioButton
+                    android:text="@string/otro"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"/>
+
+
+            </RadioGroup>
+
+            <Button
+                android:layout_margin="12dp"
+                android:id="@+id/save"
+                android:text="Save"
+                android:textSize="24sp"
+                android:background="@color/fui_transparent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
